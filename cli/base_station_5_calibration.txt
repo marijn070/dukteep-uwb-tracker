@@ -1,0 +1,22 @@
+Base Station 5 Calibration
+Generated: 2026-06-08 17:27:56
+
+Actual (mm)     Measured (mm)   Error (mm)
+---------------------------------------------
+150             380             +94.8
+200             390             +56.0
+300             465             +40.2
+500             540             -75.6
+750             780             -56.1
+1000            1080            +30.7
+1500            1850            +395.2
+2000            2150            +232.0
+2500            1750            -717.1
+
+Trendline parameters:
+  slope  a = 1.1227
+  intercept b  = -181.86
+  R²       = 0.8680
+
+AT command (replace ... with your existing values):
+  AT+SETDEV=...,1.1227,-181.86,...

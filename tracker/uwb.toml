@@ -1,0 +1,43 @@
+[field]
+width_m = 9.0
+height_m = 7.150000095367432
+goal_width_m = 3.1500000953674316
+sma_window = 5
+trail_length = 50
+position_smoothing = 3
+out_of_play_debounce = 10
+goal_debounce = 15
+serial_port = "/dev/ttyACM0"
+baud_rate = 115200
+
+[teams]
+home_name = "0"
+away_name = "Away"
+home_score = 1
+away_score = 0
+
+[anchors]
+bs0_x = 2.2509960159362548
+bs0_y = 2.5796812749003983
+bs0_disabled = true
+bs1_x = 0.01195219123505976
+bs1_y = 0.0
+bs1_disabled = false
+bs2_x = 4.5
+bs2_y = 0.0
+bs2_disabled = false
+bs3_x = 9.0
+bs3_y = 0.0
+bs3_disabled = false
+bs4_x = 0.0
+bs4_y = 7.150000095367432
+bs4_disabled = false
+bs5_x = 9.0
+bs5_y = 7.150000095367432
+bs5_disabled = false
+bs6_x = 0.0
+bs6_y = 20.0
+bs6_disabled = false
+bs7_x = 6.952191235059761
+bs7_y = 12.659362549800797
+bs7_disabled = false
